@@ -22,7 +22,8 @@
     font-size: 25px;
     text-align: center;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5px; 
+
 }
 
 .hide {
@@ -38,7 +39,7 @@
 }
 
 .tile {
-    border: 1px solid white;
+    border: 2px solid white;
     min-width: 100px;
     min-height: 100px;
     display: flex;
@@ -67,7 +68,7 @@
 #reset {
     background-color: #FF3860;
     color: white;
-    padding: 8px;
+    padding: 6px;
     border-radius: 8px;
     border: none;
     font-size: 20px;

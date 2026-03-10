@@ -60,7 +60,7 @@ function handleResultValidation() {
 const announce = (type) => {
     switch(type) {
         case PLAYERO_WON:
-            announcer.innerHTML = 'Player <span class="playerO"></span> Won';
+            announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
             break;
         case PLAYERX_WON:
             announcer.innerHTML = 'Player <span class="playerX">X</span> Won';
